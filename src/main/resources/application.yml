@@ -1,0 +1,21 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    username: postgres
+    password: root
+    url: jdbc:postgresql://localhost:5432/tryMeDB
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+  cloudinary:
+    cloud_name: 'dsrtzbdth'
+    api_key: '844342589589697'
+    api_secret: 'T7H4HyYUEO8_NOs9q-RF5hSnVHE'
